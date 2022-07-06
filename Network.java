@@ -27,8 +27,7 @@ public class Network implements Runnable{
     public void run() {
         try {
             ArrayList<String> textRequested = new ArrayList<String>();
-            textRequested.add("example1");
-            textRequested.add("example2");
+            textRequested.add("works");
 
             Block data = new Block();
 
